@@ -253,6 +253,7 @@ background: #AD343E;
 	right: 0;
 }
 
+
 .bloch{
 	padding: 90px;
 }
@@ -324,5 +325,46 @@ top: 120px;
 .slip_h1{
 	padding: 15px;
 }
+.fastest_container{
+	display: flex;
+}
+.fastest_img{
+	padding: 0 24px;
+}
+.fastest_txt{
+	padding: 0 90px ;
+}
+.fastest_h2{
+	color: #2C2F24;
 
+margin-bottom: 20px;
+font-family: Playfair Display;
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 60.5px; /* 110% */
+}
+.fastest_p{
+	padding: 20px 0;
+	color:  #414536;
+margin-bottom: 50px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+}
 
+.card_p1{
+	display: flex;
+}
+.p_ic{
+	width: 30px;
+height: 30px;
+border-radius: 65px;
+background: #AD343E;
+display: block;
+margin: 0  20px;
+
+}
+.p1{
+	margin-bottom: 20px;
+}
