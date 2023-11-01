@@ -474,3 +474,129 @@ padding: 3px;
 .ourtxt{
 	padding: 0 20px;
 }
+
+.blog{
+    justify-content: space-between;
+    margin-bottom: 0;
+    display: flex;
+}
+.blog_h2{
+    color: var(--neutral-07, #2C2F24);
+
+/* Headline/H2 */
+font-family: Playfair Display;
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 60.5px; /* 110% */
+
+}
+
+.btn{
+    border-radius: 118px;
+    transition: 0.3s;
+    color: #ffffff;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 20px 32px;
+
+    background: #AD343E;
+    
+}
+.btn_hover{
+    background: #2C2F24;
+    color: #fff;
+}
+
+.secert_container{
+    display: flex;
+    
+}
+.blog_card1{
+    width: 48%;
+        transition: 0.5s;
+        border: 1px solid var(--Gray,#f6f6f6);
+        background: #fff;
+        margin-bottom: 30x;
+}
+.blog_card1:hover{
+    box-shadow: 0px 0px 18px 0px rgba(86, 85, 85, 0.25);
+}
+.blog_card1:hover.card_btn{
+color: #fff;
+background: #797979;
+}
+.the_p1_1{
+    color: var(--neutral-05, #737865);
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+
+padding: 15px 35px;
+}
+.theh1_3{
+    color: var(--neutral-07, #2C2F24);
+
+/* Body/20px/Medium */
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 130% */
+
+padding: 15px  35px;
+}
+.the_p2{
+    color: var(--neutral-06, #414536);
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+
+padding: 15px 35px ;
+}
+.hows{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 24px;
+}
+.how{
+        width: 48%;
+        transition: 0.5s;
+        border: 1px solid var(--Gray,#f6f6f6);
+        background: #fff;
+
+        margin-top:  20px ;
+    }
+.how:hover{
+        box-shadow: 0px 0px 18px 0px rgba(86, 85, 85, 0.25);
+    }
+.how:hover.card_btn{
+    color: #fff;
+    background: #797979;
+    }
+.how_img{
+    display: block;
+    width: 100%;
+}
+.how_p1{
+    color:  #737865;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+
+padding: 13px 25px;
+}
+
+.howh3{
+    padding: 13px 25px 14px;
+    color:  #2C2F24;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px; /* 130% */
+}
