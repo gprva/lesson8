@@ -623,22 +623,37 @@ text-align: center;
 }
 .footer_left{
 	width: 30%;
-	padding: 40px ;
+
 }
 .footer_nav{
 	width: 17px;
-	
+	padding: 0 135px;
 }
 .footer_right{
 	width: 35%;
+	padding: 0 135px;
 }
 .footer_tit{
 	color: #fff;
-
+	
 }
+.footer_nav li:last-child a{
+	margin:  40px 0 ;
+	
+}
+
 .footer_logo{
 
 }
+
+.footer_ic{
+    width: 35px;
+    height: 35px;
+    border-radius: 65px; 
+    background: #AD343E; 
+    display: block;
+   }
+
 .footer_img{
 	width: calc((100% - 15px) / 2);
 	margin-bottom: 15px;
@@ -667,3 +682,4 @@ transform:scale(1.2);
 .footer_img:hover::before{
 	opacity: 0.5;
 }
+
