@@ -15,38 +15,73 @@
 	<link rel="stylesheet" href="./assets/css/media.css">
 </head>
 
-<body>
-	<header>
+<header>
+	<div class="container">
+	  <div class="head flex">
+		<a href="index.html" class="head_logo">
+		  <img src="./assets/img/Logo.svg" alt="">
+		</a>
+		<nav>
+		  <ul class="menu flex">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="pages.html">Pages</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		  </ul>
+		</nav>
+		<a href="#" class="all_btn">Book A Table</a>
+	  </div>
+	</div>
+  </header>
+  
+  	<section class="form_wrap">
 		<div class="container">
-			<div class="head flex">
-				<a href="index.html" class="head_logo">
-					<img src="img/icons/logo.png" alt="">
-				</a>
-				<nav>
-					<ul class="menu flex">
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about.html">About</a>
-						</li>
-						<li>
-							<a href="menu.html">Menu</a>
-						</li>
-						<li>
-							<a href="pages.html">Pages</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
-				<a href="#" class="btn">Book A Table</a>
-			</div>
-		</div>
-	</header>
+			<h2 class="sec_tit">Book A Table</h2>
+			<p class="sec_desk">We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
 
-	<div class="grey"></div>
+			<form action="">
+				<div class="form_in flex">
+					<div class="form_input">
+						<span class="form_txt">Date</span>
+						<div class="form_input-in">
+							<input class="input" type="date">
+						</div>
+					</div>
+
+					<div class="form_input">
+						<span class="form_txt">Time</span>
+						<div class="form_input-in">
+							<input class="input" type="text" placeholder="06:30 PM">
+						</div>
+					</div>
+
+					<div class="form_input">
+						<span class="form_txt">Name</span>
+						<div class="form_input-in">
+							<input class="input" type="text" placeholder="Enter your name">
+						</div>
+					</div>
+
+					<div class="form_input">
+						<span class="form_txt">Phone</span>
+						<div class="form_input-in">
+							<input class="input" type="text" placeholder="x-xxx-xxx-xxxx">
+						</div>
+					</div>
+
+					<div class="form_input__big">
+						<span class="form_txt">Total Person</span>
+						<div class="form_input-in">
+							<input class="input" type="text" placeholder="1 Person">
+						</div>
+					</div>
+
+					<button class="form_btn">Book A Table</button>
+				</div>
+			</form>
+		</div>
+	</section>
 
 	<section class="map">
 		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A90db74ae1e43cf532bc9e72f6ebd3f2a2feb9df5ac05260e243fad19cb9b916b&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
